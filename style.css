@@ -1,0 +1,118 @@
+body {
+  margin-top: 40px;
+  background-color: #8c1aff;
+}
+
+h1 {
+  padding-left: 1em;
+  font-family: 'Exo 2', serif;
+  text-shadow: 0 0 5px #ffffff;
+  font-size: 50px;
+  color: white;
+}
+
+#twitchLogo {
+  position: relative;
+  z-index: 1;
+  height: 70px;
+  width: 70px;
+  border-radius: 0px;
+}
+
+.switchBox {
+  display: inline-block;
+  position: relative;
+  top: -85px;
+  right: 130px;
+}
+
+.switch {
+  height: 20px;
+  width: 65px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding-left: 10px;
+  /*pointer-events: none;*/
+}
+
+#sw1 {
+  background-color: purple;
+  color: white;
+  position: relative;
+}
+
+#sw2 {
+  background-color: white;
+  position: relative;
+  right: 50px;
+}
+
+#sw3 {
+  background-color: #668cff;
+  color: white;
+  position: relative;
+  right: 50px;
+}
+
+h4 {
+  display: inline-block;
+  width: 8em;
+  color: #8c1aff;
+}
+
+.streamInfo {
+  display: inline-block;
+  position: relative;
+  top: 1em;
+  width: 27em;
+}
+
+.streamInfo a {
+  text-decoration: none;
+  color: black;
+}
+
+.streaming {
+  background-color: white;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 15px;
+  border-radius: 50px;
+}
+
+.sleeping {
+  background-color: #668cff;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 15px;
+  border-radius: 50px;
+}
+
+.sleeping h4, .sleeping em {
+  color: white;
+}
+
+.closed {
+  background-color: #668cff;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 15px;
+  border-radius: 50px;
+}
+
+.closed h4, .closed em {
+  color: white;
+}
+
+.container img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin: 10px 10px 10px 0px;
+}
+
+#footer, #footer a {
+  padding-top: 10px;
+  color: white;
+  text-shadow: 0 0 3px white;
+}
